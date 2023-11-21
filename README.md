@@ -1,7 +1,7 @@
-# Heart-Disease-Prediction-System-using-Logistic-Regression
+# Heart-Disease-Prediction-Application
 A Heart Disease Prediction System built on machine learning 
 
-## [DEPLOYED_LINK_IS_HERE](https://heart-disease-prediction-system.streamlit.app/)
+## [Heart Failure Prediction System](https://heartfailureprediction.streamlit.app/)
 
 ## Principle 
 
@@ -32,7 +32,7 @@ A machine records these signals, and a doctor examines them to see whether they 
 
 ## Data collection 
 
-[Dataset Link](https://drive.google.com/file/d/1CEql-OEexf9p02M5vCC1RDLXibHYE9Xz/view?usp=drivesdk)
+[Dataset Link](https://drive.google.com/file/d/1HK24AQLHv34j5zPIC61XO2of1AWlHvGs/view?usp=sharing)
 
 #### Columns Information
  - age
@@ -81,13 +81,6 @@ X_train, X_test, Y_train, Y_test = train_test_split(X, Y, test_size = 0.15, stra
 model = LogisticRegression()
 model.fit(X_train.values, Y_train)
 ```
-
-## Model Evaluation 
-
-<p align="center">
-  <img width="500" height="500" src="https://user-images.githubusercontent.com/78251168/211057178-3b209f44-9e51-4a6b-819b-019c9f4ddb10.png">
-</p>
-
 
 ```
 # accuracy of traning data
