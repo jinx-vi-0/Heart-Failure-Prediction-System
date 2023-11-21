@@ -87,7 +87,7 @@ def main():
         12. Number of major vessels (0-3) colored by flourosopy
         13. Thal: 0 = normal; 1 = fixed defect; 2 = reversable defect
         
-        Output : Either Heart Disease is present of not (0 or 1)""")
+        Output : Either Heart Disease is present or not (0 or 1)""")
     
     st.text("\n\n")
 #    st.markdown("<h3 style='text-align: center; color: red;'> Model accuracy is   </h3>", unsafe_allow_html=True)    
