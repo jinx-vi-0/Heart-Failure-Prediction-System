@@ -23,14 +23,14 @@ def Heart_disease_Prediction(input_data):
     print("The prediction is : ",result)
     
     if (result[0] == 1):
-      return "The person has Heart Diseases"        
+      return "There is a chance of Heart Failure"        
     else:
-      return "The person has not Heart Diseases"
+      return "The person is fine"
   
 
 def main():
     # giving a title 
-    st.markdown("<h1 style='text-align: center; color: red;'>Heart Disease Prediction Application</h1>", unsafe_allow_html=True)
+    st.markdown("<h1 style='text-align: center; color: red;'>Heart Failure Prediction Application</h1>", unsafe_allow_html=True)
     
     # getting the input data from input user
     
@@ -97,7 +97,7 @@ def main():
     
     st.write("Contributor : [Adarsh Kumar](https://github.com/jinx-vi-0) \n [LinkedIn](https://www.linkedin.com/in/jinx-vi/)")
     
-    st.write("\n© 2023 Heart Disease Prediction System. All rights reserved.")
+    st.write("\n© 2023 Heart Failure Prediction System. All rights reserved.")
 if __name__ == '__main__':
     main()
     
